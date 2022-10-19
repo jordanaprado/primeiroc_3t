@@ -1,4 +1,4 @@
-let tabuada = 5;
+llet tabuada = 5;
 
 function escreva(){
     document.write(tabuada + " x 1 = " + (tabuada*1) + "<br>");
@@ -41,3 +41,17 @@ function mat(){
     
     document.write("resultado  " + r );
 }
+ function soma(){
+    let n1 = document.getElementById("v1").value;
+    let n2 = document.getElementById("v2").value;
+    let n3 = document.getElementById("v3").value;
+    let r = (Number(n1) + Number(n2) + Number(n3));
+    document.getElementById("resultado").innerHTML = "soma: " + r;
+ }
+ function subitração(){
+    let n1 = document.getElementById("v1").value;
+    let n2 = document.getElementById("v2").value;
+    let n3 = document.getElementById("v3").value;
+    let r = (Number(n1) - Number(n2) - Number(n3));
+    document.getElementById("resultado").innerHTML = "subitração: " + r
+ }
