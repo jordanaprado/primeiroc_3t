@@ -53,5 +53,5 @@ function mat(){
     let n2 = document.getElementById("v2").value;
     let n3 = document.getElementById("v3").value;
     let r = (Number(n1) - Number(n2) - Number(n3));
-    document.getElementById("resultado").innerHTML = "subitração: " + r
+    document.getElementById("resultado").innerHTML = "subitração: " + r;
  }
