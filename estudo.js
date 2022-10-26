@@ -1,4 +1,4 @@
-llet tabuada = 5;
+let tabuada = 5;
 
 function escreva(){
     document.write(tabuada + " x 1 = " + (tabuada*1) + "<br>");
@@ -31,27 +31,36 @@ function cubo(){
 
 function mat(){
     let v = document.getElementById("valor").value;
-    let j = document.getElementById ("juros").value;
-    let t = document.getElementById ("meses").value;
+    let j = document.getElementById("juros").value;
+    let t = document.getElementById("messes").value;
     let r = 0;
     for(let i=1; i<=t; i++){
-     r = v * (1+(j/100));
-     v = r;
+        r = v * (1+(j/100));
+        v = r; 
+        document.getElementById("totalGeral").innerHTML = "Total: " +moeda(r);
+        
     }
-    
-    document.write("resultado  " + r );
+    document.write("Resultado " + r);
 }
- function soma(){
-    let n1 = document.getElementById("v1").value;
-    let n2 = document.getElementById("v2").value;
-    let n3 = document.getElementById("v3").value;
+function media(){
+    let n1 = document.getElementById("v1").value
+    let n2 = document.getElementById("v2").value
+    let n3 = document.getElementById("v3").value
+    let r = (Number(n1) + Number(n2) + Number(n3))/3;
+    document.getElementById("resultado").innerHTML = "Média : " + r;
+}
+function soma(){
+    let n1 = document.getElementById("v1").value
+    let n2 = document.getElementById("v2").value
+    let n3 = document.getElementById("v3").value
     let r = (Number(n1) + Number(n2) + Number(n3));
-    document.getElementById("resultado").innerHTML = "soma: " + r;
- }
- function subitração(){
-    let n1 = document.getElementById("v1").value;
-    let n2 = document.getElementById("v2").value;
-    let n3 = document.getElementById("v3").value;
+    document.getElementById("resultado").innerHTML = "Soma : " + r;
+}
+function subtração(){
+    let n1 = document.getElementById("v1").value
+    let n2 = document.getElementById("v2").value
+    let n3 = document.getElementById("v3").value
     let r = (Number(n1) - Number(n2) - Number(n3));
-    document.getElementById("resultado").innerHTML = "subitração: " + r;
+    document.getElementById("resultado").innerHTML = "Subtração : " + r;
  }
+ 
