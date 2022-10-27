@@ -1,1 +1,37 @@
-
+#calculadora {
+   background: rgb(76, 202, 139);  
+   width: 190px;
+   padding: 20px;
+   border-radius: 10px;
+}
+#calculadora input {
+    background: rgb(169, 214, 218);
+    color: white ;
+    border-radius: 10px;
+    padding: 10px;
+}
+#cauculadora button{
+    background:  rgb(196, 110, 126);
+    color: wheat;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#calculadora button:hover {
+    background: rgb(212, 177, 183);
+    color:rgb(228, 173, 70);
+    cursor: pointer;
+}
+#soTotal {
+     background: rgb(90, 22, 153);
+     color: rgb(194, 26, 63);
+     border-radius: 5px;
+     padding: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#spLista {
+    background: white;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
