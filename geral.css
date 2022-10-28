@@ -1,37 +1,38 @@
-#calculadora {
-   background: rgb(76, 202, 139);  
-   width: 190px;
-   padding: 20px;
-   border-radius: 10px;
+# calculadora {
+    fundo :  rgb ( 101 ,  161 ,  146 );
+    largura :  200px ; _
+    preenchimento :  20px ; _
+    raio da borda :  10 px ;
 }
-#calculadora input {
-    background: rgb(169, 214, 218);
-    color: white ;
-    border-radius: 10px;
-    padding: 10px;
+# entrada da calculadora  {
+    fundo :  rgb ( 63 ,  73 ,  69 );
+    cor :  rgb ( 238 ,  255 ,  0 );
+    raio da borda :  10 px ;
+    preenchimento :  5px ; _
 }
-#cauculadora button{
-    background:  rgb(196, 110, 126);
-    color: wheat;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 10px;
+# botão calculadora  {
+    fundo :  rgb ( 170 ,  57 ,  76 );
+    cor : branco;
+    margem superior :  10 px ;
+    preenchimento :  5px ; _
+    raio da borda :  10 px ;
 }
-#calculadora button:hover {
-    background: rgb(212, 177, 183);
-    color:rgb(228, 173, 70);
-    cursor: pointer;
+# botão calculadora  : hover {
+    fundo :  rgb ( 126 ,  100 ,  104 );
+    cor :  rgb ( 0 ,  0 ,  0 );
+    cursor : ponteiro;
 }
-#soTotal {
-     background: rgb(90, 22, 153);
-     color: rgb(194, 26, 63);
-     border-radius: 5px;
-     padding: 5px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+# spTotal {
+    fundo : preto;
+    cor : amarelo;
+    raio da borda :  10 px ;
+    preenchimento :  5px ; _
+    font-family :  'Courier New' , Courier , monospace;
 }
-#spLista {
-    background: white;
-    border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: brown;
+. spLista {
+    fundo :  rgb ( 233 ,  213 ,  233 );
+    raio da borda :  10 px ;
+    font-family :  'Lucida Sans' ,  'Lucida Sans Regular' ,  'Lucida Grande' ,  'Lucida Sans Unicode' , Geneva , Verdana , sans-serif;
+    cor : vermelho;
+    largura :  200px ; _
 }
