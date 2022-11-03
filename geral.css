@@ -1,17 +1,21 @@
 #calculadora {
-    background: yellow;
+    background: rgb(140, 147, 241);
     width: 181px;
     padding: 22px;
     border-radius: 35px;
+    box-shadow: 20px 10px black;
+    position: absolute;
+    left: 40%;
+    top: 6%;
 }
 #calculadora input {
-    background: orange;
+    background: rgb(182, 61, 61);
     color: black;
     border-radius: 35px;
     padding: 5px;
 }
 #calculadora button {
-    background: orange;
+    background: rgb(214, 173, 96);
     color: black;
     margin-top: 10px;
     padding: 5px;
@@ -34,4 +38,3 @@
     color: whitesmoke;
     width: 181px;
 }
-Footerna
