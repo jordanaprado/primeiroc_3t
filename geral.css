@@ -1,3 +1,4 @@
+
 #calculadora {
     background: rgb(140, 147, 241);
     width: 181px;
@@ -8,11 +9,28 @@
     left: 40%;
     top: 6%;
 }
+#calculadoraESG {
+    background: rgb(22, 29, 136);
+    width: 200px;
+    padding: 22px;
+    border-radius: 35px;
+    box-shadow: 20px 10px rgb(126, 100, 100);
+    position: absolute;
+    left: 10%;
+    top: 6%;
+}
+
 #calculadora input {
     background: rgb(182, 61, 61);
     color: black;
     border-radius: 35px;
     padding: 5px;
+
+}
+
+#calculadora input:focus{
+     background: white;
+     color: rgb(114, 33, 190);
 }
 #calculadora button {
     background: rgb(214, 173, 96);
